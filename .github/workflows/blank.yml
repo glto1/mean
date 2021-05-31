@@ -34,5 +34,5 @@ jobs:
         run: ./gradlew assembleDebug
         
         
-      - name: Test with Gradle
-        run: ./gradlew test --stacktrace
+      - name: Unit Test
+        run: ./gradlew test
